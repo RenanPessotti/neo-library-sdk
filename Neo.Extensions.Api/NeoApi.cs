@@ -13,7 +13,7 @@ using Newtonsoft.Json.Converters;
 
 namespace Neo.Extensions.Api
 {
-    public static class Bootstrapper
+    public static class NeoApi
     {
         public static IServiceCollection AddApi(this IServiceCollection services)
         {

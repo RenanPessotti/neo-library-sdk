@@ -3,7 +3,7 @@ using StackExchange.Redis;
 
 namespace Neo.Extensions.Redis
 {
-    public static class Bootstrapper
+    public static class NeoRedis
     {
         public static IServiceCollection AddRedis(this IServiceCollection services, RedisSettings redisSettings)
         {

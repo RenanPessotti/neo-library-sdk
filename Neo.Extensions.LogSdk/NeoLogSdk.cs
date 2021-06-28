@@ -7,7 +7,7 @@ using Neo.Extensions.Persistence.Context;
 
 namespace Neo.Extensions.LogSdk
 {
-    public static class Bootstrapper
+    public static class NeoLogSdk
     {
         public static IServiceCollection AddSDKContext(this IServiceCollection services, string connectionString)
         {

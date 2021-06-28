@@ -38,7 +38,7 @@ namespace Neo.Extensions.Kafka.ServiceBus
         /// <param name="topic">Tópico que será publicada a mensagem</param>
         /// <param name="prefixEnv">Prefixo que será concatenado ao nome do tópico.</param>
         /// <returns></returns>
-        public async Task PublishAsync<TEvent>(TEvent @event, Topics.EnumTopicsNeoPonto topic, string prefixEnv) where TEvent : IEvent
+        public async Task PublishAsync<TEvent>(TEvent @event, Topics.EnumTopics topic, string prefixEnv) where TEvent : IEvent
         {
             if (string.IsNullOrEmpty(prefixEnv))
             {

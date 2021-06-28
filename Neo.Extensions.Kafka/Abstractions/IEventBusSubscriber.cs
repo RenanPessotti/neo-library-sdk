@@ -10,6 +10,6 @@ namespace Neo.Extensions.Kafka.Abstractions
     {
         [Obsolete]
         Task SubscribeEventAsync(string queue, CancellationToken cancellationToken);
-        Task SubscribeEventAsync(Topics.EnumTopicsNeoPonto topic, string prefixEnv, CancellationToken cancellationToken);
+        Task SubscribeEventAsync(Topics.EnumTopics topic, string prefixEnv, CancellationToken cancellationToken);
     }
 }

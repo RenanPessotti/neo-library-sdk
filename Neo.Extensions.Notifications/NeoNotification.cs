@@ -2,7 +2,7 @@
 
 namespace Neo.Extensions.Notifications
 {
-    public static class Bootstrapper
+    public static class NeoNotification
     {
         public static IServiceCollection AddNotificationContext(this IServiceCollection services)
         {

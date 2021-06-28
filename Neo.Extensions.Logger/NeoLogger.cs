@@ -7,7 +7,7 @@ using Serilog.Exceptions;
 
 namespace Neo.Extensions.Logger
 {
-    public static class Bootstrapper
+    public static class NeoLogger
     {
         public static IServiceCollection AddLogger(this IServiceCollection services, IConfiguration configuration)
         {

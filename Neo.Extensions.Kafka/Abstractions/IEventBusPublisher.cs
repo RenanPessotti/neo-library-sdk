@@ -9,6 +9,6 @@ namespace Neo.Extensions.Kafka.Abstractions
     {
         [Obsolete]
         Task PublishAsync<TEvent>(TEvent queue, string topicName) where TEvent : IEvent;
-        Task PublishAsync<TEvent>(TEvent @event, Topics.EnumTopicsNeoPonto topic, string prefixEnv) where TEvent : IEvent;
+        Task PublishAsync<TEvent>(TEvent @event, Topics.EnumTopics topic, string prefixEnv) where TEvent : IEvent;
     }
 }

@@ -55,7 +55,7 @@ namespace Neo.Extensions.Kafka.ServiceBus
         /// <param name="prefixEnv">Prefixo que será concatenado ao nome do tópico</param>
         /// <param name="cancellationToken">Token de cancelamento</param>
         /// <returns></returns>
-        public async Task SubscribeEventAsync(Topics.EnumTopicsNeoPonto topic, string prefixEnv, CancellationToken cancellationToken)
+        public async Task SubscribeEventAsync(Topics.EnumTopics topic, string prefixEnv, CancellationToken cancellationToken)
         {
             if (string.IsNullOrEmpty(prefixEnv))
             {
